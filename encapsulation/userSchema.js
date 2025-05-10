@@ -1,6 +1,6 @@
 // Security, Maintainibility, modularity, and code reusability
 import mongoose from 'mongoose';
-import bcryppt from 'bcryptjs';
+import bcrypt from 'bcryptjs';
 
 const userSchema = new mongoose.Schema(
     {
